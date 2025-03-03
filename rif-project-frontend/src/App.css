@@ -1,0 +1,16 @@
+body {
+  background-color: #f9fafb; /* This is the equivalent of bg-gray-50 in Tailwind CSS */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.group-open .fadeIn {
+  animation: fadeIn 0.2s ease-in-out forwards;
+}
